@@ -85,6 +85,16 @@ p {
     text-transform: uppercase;
 }
 
+.nome-ini-w:hover {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 21px;
+    width: 100%;
+    text-transform: uppercase;
+    color: #41b548 !important;
+}
+
 .nome-ini-w2 {
     font-size: 16px;
     font-weight: 600;
