@@ -10,7 +10,7 @@ body {
 
 nav {
     background-color: #031f32;
-    position: fixed;
+    position: fixed !important;
     width: 100%;
     height: 10%;
     padding: 1px 8px;
@@ -97,7 +97,6 @@ p {
     align-items: center;
     justify-content: center;
 }
-
 
 .container {
     width: 85%;
@@ -303,6 +302,10 @@ p {
     align-items: center;
     justify-content: space-around;
 }
+.col-sm-java{
+    margin-bottom: 26px;
+
+}
 
 .col-sm-2{
     display: flex;
@@ -316,6 +319,27 @@ p {
     justify-content: space-around;
     align-content: center;
 }
+.div-flex{  
+    display: flex;  
+    justify-content: flex-start;
+
+}
+.grafico{
+    margin-left: 100px;
+    margin-right: 55px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: -20px;
+
+}
+
+.grafico-circulo svg{
+    width: 150px;
+    height: 150px;
+    position: relative;
+
+}
 
 
 .end{
@@ -326,3 +350,4 @@ p {
     color: #000000;
     margin-top: 12%;
 }
+
