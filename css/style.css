@@ -325,12 +325,50 @@ p {
 
 }
 .grafico{
+    width: 150px;
+    height: 150px;
     margin-left: 100px;
     margin-right: 55px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.4);
     border-radius: 5px;
     padding: 15px;
     margin-top: -20px;
+
+}
+.numero-por-90{
+    color: #f7f5f5;
+    left: 11%;
+    top: 227%;
+    bottom: -183%;
+    position: absolute;
+    font-size: 40px;
+
+}
+.numero-por-30{
+    color: #f7f5f5;
+    left: 36%;
+    top: 227%;
+    bottom: -183%;
+    position: absolute;
+    font-size: 40px;
+
+}
+.numero-por-91{
+    color: #f7f5f5;
+    left: 61%;
+    top: 227%;
+    bottom: -183%;
+    position: absolute;
+    font-size: 40px;
+
+}
+.numero-por-31{
+    color: #f7f5f5;
+    left: 86%;
+    top: 227%;
+    bottom: -183%;
+    position: absolute;
+    font-size: 40px;
 
 }
 
@@ -339,6 +377,26 @@ p {
     height: 150px;
     position: relative;
 
+
+}
+circle{
+    fill: none;
+    stroke: #000000;
+    stroke-width: 10;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+
+}
+
+circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: rgb(102, 102, 102);
+}
+
+circle:nth-child(2){
+    stroke-dashoffset: calc(440 - 308);
+    stroke: rgb(30, 144, 255);
 }
 
 
