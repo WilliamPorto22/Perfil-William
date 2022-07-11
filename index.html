@@ -5,7 +5,7 @@
     <title>William Porto</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="imag/w.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imag/icon-re.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -25,7 +25,7 @@
 
                         <a href="#skills">Skills</a>
 
-                        <a href="#resume">Formação</a>
+                        <a href="#formacao">Formação</a>
 
                         <a href="#contact">Contato</a>
                     </ul>
@@ -43,17 +43,17 @@
         <div>;
             <h1> William Porto</h1>
             <p>Desenvolvedor Front-End</p>
-            <button type="button" class="bt-contato" data-toggle="modal" data-target="#exampleModal">
+            <button type="button" class="bt-contato">
                 Contato
             </button>
         </div>
     </section>
 
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <div class="title-border "></div>
-        <div class="section ">
-            <p class="section2">Formado Gestâo Comercial e estudante de desenvolvimento, possuo certificados em HTML,
+    <section id="sobre" class="section-sobre">
+        <h2 >Sobre</h2>
+        <div class="title-border"></div>
+        <div class="section">
+            <p  class="section2">Formado Gestâo Comercial e estudante de desenvolvimento, possuo certificados em HTML,
                 CCS, Javascript, E-commerce, Power-BI, Bootstrap, Versionamento GIT, entre outros. Atualmente,
                 sigo estudando o uso de tecnologias como, React, Node. Procuro sempre aprender algo novo e acompanhar o
                 mundo do desenvolvimento.
@@ -62,11 +62,11 @@
             <div>
                 <img src="imag/w.png" class="img-responsive img-thumbnail img-perfil">
             </div>
-            <button type="button" class="bt-experiencia" data-toggle="modal" data-target="#exampleModal">
+            <button type="button" class="bt-experiencia" >
                 Experiencia
             </button>
         </div>
-    </section>
+    </section id="skills" >
 
     <section id="skills" class="section-skills">
         <div>
@@ -78,26 +78,28 @@
                 <div class="col-sm-1">
                     <div class="skill">
                         <h4>HTML</h4>
-
+                        <div class="title-border-2"></div>
                     </div>
                 </div>
 
                 <div class="col-sm-1">
                     <div class="skill col-sm-java">
                         <h4>JAVASCRIPT</h4>
-
+                        <div class="title-border-2"></div>
                     </div>
                 </div>
 
                 <div class="col-sm-1">
                     <div class="skill">
                         <h4>CSS</h4>
+                        <div class="title-border-2"></div>
                     </div>
                 </div>
 
                 <div class="col-sm-1">
                     <div class="skill">
                         <h4>REACT</h4>
+                        <div class="title-border-2"></div>
                     </div>
                 </div>
             </div>
@@ -116,8 +118,8 @@
             <div class="grafico">
                 <div class="grafico-circulo">
                     <svg>
-                        <circle cx="70" cy="70" r="70"> </circle>
-                        <circle cx="70" cy="70" r="70"> </circle>
+                        <circle class="circle2" cx="70" cy="70" r="70"> </circle>
+                        <circle  class="circle2" cx="70" cy="70" r="70"> </circle>
                     </svg>
                 </div>
             </div>
@@ -134,8 +136,8 @@
             <div class="grafico">
                 <div class="grafico-circulo">
                     <svg>
-                        <circle cx="70" cy="70" r="70"> </circle>
-                        <circle cx="70" cy="70" r="70"> </circle>
+                        <circle class="circle2" cx="70" cy="70" r="70"> </circle>
+                        <circle  class="circle2" cx="70" cy="70" r="70"> </circle>
                     </svg>
                 </div>
             </div>
@@ -153,82 +155,51 @@
             <div >
                 <h6 class="numero-por-31">30%</h6>
             </div>
-        </div>
+        </div >
     </section>
 
-    <section>
-
+    <section id="formacao">
         <div>
             <h2>Formação</h2>
             <div class="title-border "></div>
+            <div class="col-1">
 
-            <div class="col formacao-or">
                 <div>
                     <h5>UNINTER</h5>
                     <div class="forma-border"></div>
-                    <p class="test-forma">Gestor Comercial <span>&bull;</span> <em class="date">
-                            2019 - 2022</em></p>
-
-                    <p class="test-forma">
-                        Curso Superior em Gestâo Comercial.
-                    </p>
+                    <p class="test-forma">Gestor Comercial 2019 - 2022</p>
+                    <p class="test-forma">Curso Superior em Gestâo Comercial.</p>
                     <a href="" target="_blank">
-                        <button type="button" class="bt-diploma " data-toggle="modal" data-target="#exampleModal">
+                        <button class="bt-experiencia-2">
                             Visualizar
                         </button>
                     </a>
-
                 </div>
                 <div>
                     <h5>HARVERDX</h5>
                     <div class="forma-border"></div>
+                    <p class="test-forma">Familiarity in a number of languages</p>
+                    <p class="test-forma">Python, SQL, and JavaScript plus CSS</p>
+                    <p class="test-forma">and HTML</p>
                     <a href="" target="_blank">
-                        <button type="button" class="bt-diploma " data-toggle="modal" data-target="#exampleModal">
+                        <button class="bt-experiencia-2">
                             Visualizar
                         </button>
                     </a>
-                </div>
-                <div>
+                </div>  
+                <div >
                     <h5>UDEMY</h5>
                     <div class="forma-border"></div>
+                    <p class="test-forma">Javascript Angular React Next Vue Node HTML CSS jQuery Bootstrap Webpack</p>
+                    <p class="test-forma">Excel Avançado, Macro e VBA + Power BI </p>
+                    <p class="test-forma">E-commerce na Pratica Loja Virtual</p>
+                    <p class="test-forma">Curso Microsoft Excel Avançado</p>
                     <a href="" target="_blank">
-                        <button type="button" class="bt-diploma " data-toggle="modal" data-target="#exampleModal">
-                            Visualizar
-                        </button>
-                    </a>
-
-                </div>
-            </div>
-
-            <div class="col-2 formacao-or ">
-
-                <div>
-                    <h5>GOOGLE</h5>
-                    <div class="forma-border"></div>
-                    <a href="" target="_blank">
-                        <button type="button" class="bt-diploma " data-toggle="modal" data-target="#exampleModal">
+                        <button class="bt-experiencia-2"  >    
                             Visualizar
                         </button>
                     </a>
                 </div>
-                <div>
-                    <h5>MICHIGAN</h5>
-                    <div class="forma-border"></div>
-                    <a href="" target="_blank">
-                        <button type="button" class="bt-diploma " data-toggle="modal" data-target="#exampleModal">
-                            Visualizar
-                        </button>
-                    </a>
-                </div>
-                <div>
-                    <h5>COURSERA</h5>
-                    <div class="forma-border"></div> <a href="" target="_blank">
-                        <button type="button" class="bt-diploma " data-toggle="modal" data-target="#exampleModal">
-                            Visualizar
-                        </button>
-                    </a>
-                </div>
-
             </div>
         </div>
 
