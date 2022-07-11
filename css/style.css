@@ -208,7 +208,7 @@ span{margin: 10px auto;}
 .inicio-fundo {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(#00000029, #000000), url(/imag/inicioPerfi.png);
+    background-image: linear-gradient(#00000029, #000000), url(imag/inicioPerfi.png);
     background-size: cover;
     background-position: center;
     display: flex;
