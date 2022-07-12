@@ -89,7 +89,6 @@ h4 {
 
 h5 {
     margin-bottom: 5px;
-    margin-top: 46%;
     color: #333;
     font-weight: 400;
     font-size: 24px;
@@ -107,6 +106,14 @@ p {
     justify-content: center;
 }
 .modal-container{
+    width: 100vh;
+    position: fixed;
+    display: none;
+    top: 30px;
+    z-index: 999;
+    justify-content: center;
+}
+.modal-container-2{
     width: 100vh;
     position: fixed;
     display: none;
@@ -208,7 +215,7 @@ span{margin: 10px auto;}
 .inicio-fundo {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(#00000029, #000000), url(/css/inicioPerfi.png);
+    background-image: linear-gradient(#00000029, #000000), url(../imag/inicioPerfi.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -289,7 +296,6 @@ span{margin: 10px auto;}
     border: 1px solid transparent;
     border-radius: 5px;
     margin-left: 5%;
-    bottom: -278%;
 }
 
 .bt-experiencia-2:hover {
@@ -304,7 +310,6 @@ span{margin: 10px auto;}
     cursor: pointer;
     border-radius: 4px;
     margin-left: 5%;
-    bottom: -278%;
 }
 
 .bt-experiencia {
@@ -545,4 +550,19 @@ circle:nth-child(2) {
     height: 10%;
     padding: 10px 8px;
     margin-bottom: 0px;
+}
+
+.section-for{
+    display: flex;
+    justify-content: center
+}
+.card-for{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 33px;
+}
+.texto-card{
+    height: 250px;
 }
